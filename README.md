@@ -18,13 +18,12 @@ This project presents a **scalable Big Data pipeline** using the Hadoop ecosyste
 
 ## 🎯 Objectives
 
-- Store large datasets using HDFS  
-- Process data using MapReduce (Python)  
-- Perform analytical queries using Hive  
-- Understand distributed data processing  
-- Generate insights from raw transaction data  
 
-
+- To process large-scale e-commerce data using the Hadoop ecosystem.
+- To store and manage data efficiently using HDFS.
+- To calculate total revenue per product using MapReduce.
+- To analyze processed data using Hive queries.
+- To extract meaningful insights such as top-selling products and sales trends.
 
 ---
 
@@ -34,7 +33,7 @@ This project presents a **scalable Big Data pipeline** using the Hadoop ecosyste
 - **MapReduce** – Parallel Processing  
 - **Hive** – SQL-based Analysis  
 - **Python** – Mapper & Reducer  
-- ** Cloudera** – Execution Environment  
+- **Cloudera** – Execution Environment  
 - **ChatGPT** – AI Assistance  
 
 ---
@@ -56,19 +55,19 @@ The dataset contains e-commerce transaction details:
 
 ## 🔄 Workflow
 
-1. Upload dataset to HDFS  
-2. Process data using MapReduce  
-3. Store processed output in HDFS  
-4. Analyze data using Hive  
-5. Generate insights  
+1. Collect and prepare the e-commerce dataset (CSV format).
+2. Upload dataset to HDFS for distributed storage.
+3. Process data using MapReduce to calculate revenue per product.
+4. Store processed output back in HDFS.
+5. Analyze data using Hive queries to get insights.
 
 ---
 
 ## 📈 Output
 
-- Total revenue per product  
-- Identification of top-selling products  
-- Structured analytical insights  
+- Total revenue calculated for each product using MapReduce.
+- Identification of top-selling and high-revenue products using Hive queries.
+- Insights into sales patterns and product performance for better decision-making.  
 
 ---
 
